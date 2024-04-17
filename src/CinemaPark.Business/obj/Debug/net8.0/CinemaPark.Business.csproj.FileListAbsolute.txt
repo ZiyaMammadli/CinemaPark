@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\bin\Debug\net8.0\CinemaPark.Business.deps.json
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\bin\Debug\net8.0\CinemaPark.Business.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\bin\Debug\net8.0\CinemaPark.Business.pdb
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\bin\Debug\net8.0\CinemaPark.Core.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\bin\Debug\net8.0\CinemaPark.Data.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\bin\Debug\net8.0\CinemaPark.Data.pdb
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\bin\Debug\net8.0\CinemaPark.Core.pdb
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\CinemaPark.Business.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\CinemaPark.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\CinemaPark.Business.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\CinemaPark.Business.AssemblyInfo.cs
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\CinemaPark.Business.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\CinemaPa.B9C2986E.Up2Date
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\CinemaPark.Business.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\refint\CinemaPark.Business.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\CinemaPark.Business.pdb
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Business\obj\Debug\net8.0\ref\CinemaPark.Business.dll

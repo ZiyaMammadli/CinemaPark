@@ -1,0 +1,6 @@
+@CinemaPark.API_HostAddress = http://localhost:5114
+
+GET {{CinemaPark.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

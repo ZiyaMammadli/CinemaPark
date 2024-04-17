@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\bin\Debug\net8.0\CinemaPark.Core.deps.json
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\bin\Debug\net8.0\CinemaPark.Core.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\bin\Debug\net8.0\CinemaPark.Core.pdb
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.AssemblyInfo.cs
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\refint\CinemaPark.Core.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.pdb
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\ref\CinemaPark.Core.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.csproj.AssemblyReference.cache
