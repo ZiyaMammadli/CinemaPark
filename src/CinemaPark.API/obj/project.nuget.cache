@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "1KOHIDZ4JSMKDf4r+/W324GC4IPS/n0F/F3r7AfQtkq9hSMgwggwoJMRW4Ezz1zJ2kYbQXLXtAJ8VCi7KK6KYQ==",
+  "dgSpecHash": "C/moAY1aLqyc6cdfeaNl9ky1OP8vKVVTEdwr+HNWJ0tZhYh0OE4goHpEYUMBj5mT96rW6q+IE4KBaZVbaW1UeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\CinemaPark.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

@@ -10,3 +10,4 @@ C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\refin
 C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.pdb
 C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\ref\CinemaPark.Core.dll
 C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.Core\obj\Debug\net8.0\CinemaPark.Core.sourcelink.json

@@ -31,11 +31,11 @@ namespace CinemaPark.API.Controllers
             }
             catch (NotFoundException ex)
             {
-                return NotFound(ex.Message);
+                return StatusCode(ex.statusCode,ex.Message);
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                return BadRequest(ex.Message);
             }
             
         }
@@ -48,11 +48,11 @@ namespace CinemaPark.API.Controllers
             }
             catch (NotFoundException ex)
             {
-                return NotFound(ex.Message);
+                return StatusCode(ex.statusCode, ex.Message);
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                return BadRequest(ex.Message);
             }
             return Created();
         }
@@ -65,11 +65,11 @@ namespace CinemaPark.API.Controllers
             }
             catch (NotFoundException ex)
             {
-                return NotFound(ex.Message);
+                return StatusCode(ex.statusCode, ex.Message);
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                return BadRequest(ex.Message);
             }
             return Ok();
         }
@@ -82,11 +82,11 @@ namespace CinemaPark.API.Controllers
             }
             catch (NotFoundException ex)
             {
-                return NotFound(ex.Message);
+                return StatusCode(ex.statusCode, ex.Message);
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                return BadRequest(ex.Message);
             }
             return Ok();
         }

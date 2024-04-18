@@ -20,7 +20,7 @@ public class GenreService : IGenreService
     }
     public async Task CreateAsync(GenrePostDto genrePostDto)
     {
-        if (genrePostDto is null) throw new NotFoundException("Genre is not found");
+        if (genrePostDto is null) throw new NotFoundException(404,"Genre is not found");
         Genre genre = new Genre()
         {
             Name= genrePostDto.Name,
@@ -35,7 +35,7 @@ public class GenreService : IGenreService
     public async Task DeleteAsync(int id)
     {
        var genre= await _genreRepository.GetByIdAsync(id);
-        if(genre is null) throw new NotFoundException("Genre is not found");
+        if(genre is null) throw new NotFoundException(404,"Genre is not found");
         _genreRepository.Delete(genre);
         await _genreRepository.CommitAsync();
     }
@@ -60,7 +60,7 @@ public class GenreService : IGenreService
     public async Task<GenreGetDto> GetByIdAsync(int id)
     {
         var genre=await _genreRepository.GetByIdAsync(id);
-        if(genre is null) throw new NotFoundException("Genre is not found!");
+        if(genre is null) throw new NotFoundException(404,"Genre is not found!");
         GenreGetDto genreGetDto = new GenreGetDto()
         {
             Id = genre.Id,
@@ -72,8 +72,8 @@ public class GenreService : IGenreService
     public async Task UpdateAsync(int id, GenrePostDto genrePostDto)
     {
         var currentGenre=await _genreRepository.GetByIdAsync(id);
-        if (currentGenre is null) throw new NotFoundException("Genre is not found!");
-        if (genrePostDto is null) throw new NotFoundException("Genre is not found!");
+        if (currentGenre is null) throw new NotFoundException(404, "Genre is not found!");
+        if (genrePostDto is null) throw new NotFoundException(404, "Genre is not found!");
         currentGenre.UpdatedDate = DateTime.UtcNow;
         currentGenre.Name= genrePostDto.Name;
         currentGenre.IsDeleted=genrePostDto.IsDeleted;

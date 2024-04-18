@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CinemaPark.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c506ca3ab4a00a44482ee1d2db92a3daa1cc0d51")]
 [assembly: System.Reflection.AssemblyProductAttribute("CinemaPark.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CinemaPark.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

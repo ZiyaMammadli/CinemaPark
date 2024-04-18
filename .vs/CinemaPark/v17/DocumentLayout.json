@@ -3,44 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\CinemaPark\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\services\\implementations\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\services\\implementations\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\dtos\\genredtos\\genrepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\dtos\\genredtos\\genrepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA66417-9DF0-495D-88C4-8E43DB7EEA6A}|src\\CinemaPark.API\\CinemaPark.API.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.api\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FA66417-9DF0-495D-88C4-8E43DB7EEA6A}|src\\CinemaPark.API\\CinemaPark.API.csproj|solutionrelative:src\\cinemapark.api\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\dtos\\moviedtos\\moviepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\dtos\\moviedtos\\moviepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemaPark.Data.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinempark.data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemaPark.Data.csproj|solutionrelative:src\\cinempark.data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\dtos\\moviedtos\\moviegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\dtos\\moviedtos\\moviegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemPark.Data.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinempark.data\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemPark.Data.csproj|solutionrelative:src\\cinempark.data\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemaPark.Data.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinempark.data\\configurations\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemaPark.Data.csproj|solutionrelative:src\\cinempark.data\\configurations\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA66417-9DF0-495D-88C4-8E43DB7EEA6A}|src\\CinemaPark.API\\CinemaPark.API.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FA66417-9DF0-495D-88C4-8E43DB7EEA6A}|src\\CinemaPark.API\\CinemaPark.API.csproj|solutionrelative:src\\cinemapark.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\services\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\services\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA66417-9DF0-495D-88C4-8E43DB7EEA6A}|src\\CinemaPark.API\\CinemaPark.API.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA66417-9DF0-495D-88C4-8E43DB7EEA6A}|src\\CinemaPark.API\\CinemaPark.API.csproj|solutionrelative:src\\cinemapark.api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\services\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\services\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DB1034E-77D8-4295-8D23-3AF4FD4F59E2}|src\\CinemaPark.Core\\CinemaPark.Core.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DB1034E-77D8-4295-8D23-3AF4FD4F59E2}|src\\CinemaPark.Core\\CinemaPark.Core.csproj|solutionrelative:src\\cinemapark.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\dtos\\genredtos\\genregetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\dtos\\genredtos\\genregetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemaPark.Data.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinempark.data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemaPark.Data.csproj|solutionrelative:src\\cinempark.data\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemaPark.Data.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinempark.data\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B1BA06-E787-4A6C-BD1A-20F879302C32}|src\\CinemPark.Data\\CinemaPark.Data.csproj|solutionrelative:src\\cinempark.data\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\dtos\\genredtos\\genrepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\dtos\\genredtos\\genrepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FA66417-9DF0-495D-88C4-8E43DB7EEA6A}|src\\CinemaPark.API\\CinemaPark.API.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA66417-9DF0-495D-88C4-8E43DB7EEA6A}|src\\CinemaPark.API\\CinemaPark.API.csproj|solutionrelative:src\\cinemapark.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.business\\services\\interfaces\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ADA5CA7-698A-46BA-8E73-6892E7653116}|src\\CinemaPark.Business\\CinemaPark.Business.csproj|solutionrelative:src\\cinemapark.business\\services\\interfaces\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DB1034E-77D8-4295-8D23-3AF4FD4F59E2}|src\\CinemaPark.Core\\CinemaPark.Core.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB1034E-77D8-4295-8D23-3AF4FD4F59E2}|src\\CinemaPark.Core\\CinemaPark.Core.csproj|solutionrelative:src\\cinemapark.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DB1034E-77D8-4295-8D23-3AF4FD4F59E2}|src\\CinemaPark.Core\\CinemaPark.Core.csproj|c:\\users\\user\\source\\repos\\cinemapark\\src\\cinemapark.core\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DB1034E-77D8-4295-8D23-3AF4FD4F59E2}|src\\CinemaPark.Core\\CinemaPark.Core.csproj|solutionrelative:src\\cinemapark.core\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\ServiceRegistration.cs",
-              "RelativeToolTip": "src\\CinemaPark.Business\\ServiceRegistration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:47:26.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GenrePostDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenrePostDto.cs",
-              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenrePostDto.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenrePostDto.cs",
-              "RelativeToolTip": "src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenrePostDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:02:43.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GenreGetDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenreGetDto.cs",
-              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenreGetDto.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenreGetDto.cs",
-              "RelativeToolTip": "src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenreGetDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:01:58.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Core\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "src\\CinemaPark.Core\\Repositories\\IGenericRepository.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Core\\Repositories\\IGenericRepository.cs",
               "RelativeToolTip": "src\\CinemaPark.Core\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T05:55:50.476Z",
+              "WhenOpened": "2024-04-18T18:46:39.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemPark.Data\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "src\\CinemPark.Data\\Repositories\\GenericRepository.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemPark.Data\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "src\\CinemPark.Data\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T05:44:04.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenresController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\Controllers\\GenresController.cs",
-              "RelativeDocumentMoniker": "src\\CinemaPark.API\\Controllers\\GenresController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\Controllers\\GenresController.cs",
-              "RelativeToolTip": "src\\CinemaPark.API\\Controllers\\GenresController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T05:38:56.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GenreService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\Services\\Implementations\\GenreService.cs",
-              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\Services\\Implementations\\GenreService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\Services\\Implementations\\GenreService.cs",
-              "RelativeToolTip": "src\\CinemaPark.Business\\Services\\Implementations\\GenreService.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAkwD4AAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T05:38:05.772Z",
+              "WhenOpened": "2024-04-18T18:46:35.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "IGenreService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\Services\\Interfaces\\IGenreService.cs",
-              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\Services\\Interfaces\\IGenreService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\Services\\Interfaces\\IGenreService.cs",
-              "RelativeToolTip": "src\\CinemaPark.Business\\Services\\Interfaces\\IGenreService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemPark.Data\\Repositories\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "src\\CinemPark.Data\\Repositories\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemPark.Data\\Repositories\\GenreRepository.cs",
+              "RelativeToolTip": "src\\CinemPark.Data\\Repositories\\GenreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T05:37:33.023Z",
+              "WhenOpened": "2024-04-18T18:46:33.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\CinemaPark.API\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\Program.cs",
-              "RelativeToolTip": "src\\CinemaPark.API\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "MovieGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\MovieDtos\\MovieGetDto.cs",
+              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\DTOs\\MovieDtos\\MovieGetDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\MovieDtos\\MovieGetDto.cs",
+              "RelativeToolTip": "src\\CinemaPark.Business\\DTOs\\MovieDtos\\MovieGetDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:04:08.064Z",
+              "WhenOpened": "2024-04-18T18:22:05.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenrePostDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenrePostDto.cs",
+              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenrePostDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenrePostDto.cs",
+              "RelativeToolTip": "src\\CinemaPark.Business\\DTOs\\GenreDtos\\GenrePostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T18:03:48.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoviePostDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\MovieDtos\\MoviePostDto.cs",
+              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\DTOs\\MovieDtos\\MoviePostDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\DTOs\\MovieDtos\\MoviePostDto.cs",
+              "RelativeToolTip": "src\\CinemaPark.Business\\DTOs\\MovieDtos\\MoviePostDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T19:41:22.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemPark.Data\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "src\\CinemPark.Data\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemPark.Data\\ServiceRegistration.cs",
-              "RelativeToolTip": "src\\CinemPark.Data\\ServiceRegistration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Title": "MovieConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemPark.Data\\Configurations\\MovieConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\CinemPark.Data\\Configurations\\MovieConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemPark.Data\\Configurations\\MovieConfiguration.cs",
+              "RelativeToolTip": "src\\CinemPark.Data\\Configurations\\MovieConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T19:52:25.59Z",
+              "WhenOpened": "2024-04-18T05:04:29.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "src\\CinemaPark.API\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "src\\CinemaPark.API\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:30:57.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Core\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\CinemaPark.Core\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Core\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "src\\CinemaPark.Core\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T19:31:17.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Core\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "src\\CinemaPark.Core\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Core\\Entities\\Movie.cs",
+              "RelativeToolTip": "src\\CinemaPark.Core\\Entities\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T19:30:09.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\Services\\Interfaces\\IMovieService.cs",
+              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\Services\\Interfaces\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\Services\\Interfaces\\IMovieService.cs",
+              "RelativeToolTip": "src\\CinemaPark.Business\\Services\\Interfaces\\IMovieService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T19:25:16.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\Services\\Implementations\\MovieService.cs",
+              "RelativeDocumentMoniker": "src\\CinemaPark.Business\\Services\\Implementations\\MovieService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.Business\\Services\\Implementations\\MovieService.cs",
+              "RelativeToolTip": "src\\CinemaPark.Business\\Services\\Implementations\\MovieService.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwFAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T19:45:02.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\CinemaPark.API\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\Program.cs",
+              "RelativeToolTip": "src\\CinemaPark.API\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:04:08.064Z",
               "EditorCaption": ""
             }
           ]

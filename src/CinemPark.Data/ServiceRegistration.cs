@@ -1,4 +1,5 @@
-﻿using CinemaPark.Core.Repositories;
+﻿using CinemaPark.Core.Entities;
+using CinemaPark.Core.Repositories;
 using CinemaPark.Data.Contexts;
 using CinemaPark.Data.Repositories;
 using Microsoft.EntityFrameworkCore;

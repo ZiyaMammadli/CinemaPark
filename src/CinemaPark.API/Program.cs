@@ -2,11 +2,16 @@ using CinemaPark.Data;
 using CinemaPark.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
 using CinemaPark.Business;
+using FluentValidation.AspNetCore;
+using CinemaPark.Business.DTOs.MovieDtos;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddFluentValidation(fv =>
+{
+    fv.RegisterValidatorsFromAssembly(typeof(MovieCreateValidator).Assembly);
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

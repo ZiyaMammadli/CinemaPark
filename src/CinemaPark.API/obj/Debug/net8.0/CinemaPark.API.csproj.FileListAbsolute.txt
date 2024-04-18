@@ -140,3 +140,7 @@ C:\Users\user\source\repos\CinemaPark\src\CinemaPark.API\bin\Debug\net8.0\Cinema
 C:\Users\user\source\repos\CinemaPark\src\CinemaPark.API\bin\Debug\net8.0\CinemaPark.Business.pdb
 C:\Users\user\source\repos\CinemaPark\src\CinemaPark.API\bin\Debug\net8.0\CinemaPark.Core.pdb
 C:\Users\user\source\repos\CinemaPark\src\CinemaPark.API\bin\Debug\net8.0\CinemaPark.Data.pdb
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.API\obj\Debug\net8.0\CinemaPark.API.sourcelink.json
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemaPark.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

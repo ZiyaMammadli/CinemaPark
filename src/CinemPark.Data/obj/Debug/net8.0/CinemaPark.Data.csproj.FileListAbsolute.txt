@@ -13,3 +13,4 @@ C:\Users\user\source\repos\CinemaPark\src\CinemPark.Data\obj\Debug\net8.0\Cinema
 C:\Users\user\source\repos\CinemaPark\src\CinemPark.Data\obj\Debug\net8.0\refint\CinemaPark.Data.dll
 C:\Users\user\source\repos\CinemaPark\src\CinemPark.Data\obj\Debug\net8.0\CinemaPark.Data.pdb
 C:\Users\user\source\repos\CinemaPark\src\CinemPark.Data\obj\Debug\net8.0\ref\CinemaPark.Data.dll
+C:\Users\user\source\repos\CinemaPark\src\CinemPark.Data\obj\Debug\net8.0\CinemaPark.Data.sourcelink.json
