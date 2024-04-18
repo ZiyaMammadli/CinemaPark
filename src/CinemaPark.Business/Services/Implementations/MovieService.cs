@@ -1,4 +1,5 @@
-﻿using CinemaPark.Business.DTOs.MovieDtos;
+﻿using AutoMapper;
+using CinemaPark.Business.DTOs.MovieDtos;
 using CinemaPark.Business.Services.Interfaces;
 using CinemaPark.Business.Utilities.Exceptions;
 using CinemaPark.Core.Entities;
@@ -17,35 +18,35 @@ namespace CinemaPark.Business.Services.Implementations
     {
         private readonly IMovieRepository _movieRepository;
         private readonly IGenreRepository _genreRepository;
-        public MovieService(IMovieRepository movieRepository,IGenreRepository genreRepository)
+        private readonly IMapper _mapper;
+        public MovieService(IMovieRepository movieRepository,IGenreRepository genreRepository,IMapper mapper)
         {
             _movieRepository = movieRepository;
             _genreRepository = genreRepository;
+            _mapper = mapper;
+
         }
         public async Task CreateAsync(MoviePostDto moviePostDto)
         {
             if (moviePostDto is null) throw new NotFoundException(404, "Movie is not found");
             if(!await _genreRepository.Table.AnyAsync(g => g.Id == moviePostDto.GenreId))
             {
-                throw new NotFoundException("Genre is not found");
+                throw new NotFoundException(404, "Genre is not found");
             }
-            Movie movie = new Movie()
-            {
-                Name = moviePostDto.Name,
-                Desc = moviePostDto.Desc,
-                SalePrice = moviePostDto.SalePrice,
-                CostPrice = moviePostDto.CostPrice,
-                IsDeleted = moviePostDto.IsDeleted,
-                GenreId = moviePostDto.GenreId,
-                CreatedDate=DateTime.UtcNow,
-                UpdatedDate=DateTime.UtcNow,
-            };
+
+           Movie movie= _mapper.Map<Movie>(moviePostDto);
+
+            movie.CreatedDate = DateTime.UtcNow;
+            movie.UpdatedDate = DateTime.UtcNow;
+
             await _movieRepository.InsertAsync(movie);
             await _movieRepository.CommitAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id,MovieDeleteDto movieDeleteDto)
         {
+            if (id != movieDeleteDto.Id) throw new Exception("id must be valid");
+            if (!await _movieRepository.Table.AnyAsync(m => m.Id == movieDeleteDto.Id)) throw new NotFoundException(404, "movie is not found");
             var movie=await _movieRepository.GetByIdAsync(id);
             if (movie is null) throw new NotFoundException(404, "Movie is not found");
             _movieRepository.Delete(movie);
@@ -58,14 +59,7 @@ namespace CinemaPark.Business.Services.Implementations
             var movies=await _movieRepository.GetAllAsync(null,"Genre");
             foreach (var movie in movies)
             {
-                MovieGetDto movieGetDto = new MovieGetDto()
-                {
-                    Id = movie.Id,
-                    Name=movie.Name,
-                    Desc=movie.Desc,
-                    GenreName=movie.Genre.Name,
-                    SalePrice=movie.SalePrice,                    
-                };
+                MovieGetDto movieGetDto= _mapper.Map<MovieGetDto>(movie);
                 movieGetDtos.Add(movieGetDto);
             }
             return movieGetDtos;
@@ -75,30 +69,18 @@ namespace CinemaPark.Business.Services.Implementations
         {
             var movie=await _movieRepository.GetSingleAsync(m=>m.Id==id,"Genre");
             if(movie is null) throw new NotFoundException(404,"Movie is not found");
-            MovieGetDto movieGetDto = new MovieGetDto()
-            {
-                Id=movie.Id,
-                Name=movie.Name,
-                Desc=movie.Desc,
-                GenreName=movie.Genre.Name,
-                SalePrice=movie.SalePrice,               
-            };
+            MovieGetDto movieGetDto= _mapper.Map<MovieGetDto>(movie);
             return movieGetDto;
         }
 
-        public async Task UpdateAsync(int id, MoviePostDto moviePostDto)
+        public async Task UpdateAsync(int id, MoviePutDto moviePutDto )
         {
-            if(!await _genreRepository.Table.AnyAsync(g=>g.Id==moviePostDto.GenreId)) { throw new NotFoundException("Genre is not found"); }
+            if (id != moviePutDto.Id) throw new Exception("Id is not valid");
+            if(!await _genreRepository.IsExist(g=>g.Id == moviePutDto.GenreId)) { throw new NotFoundException(404,"Genre is not found"); }
             var currentMovie = await _movieRepository.GetByIdAsync(id);
             if (currentMovie is null) throw new NotFoundException(404, "Movie is not found");
-
-            currentMovie.Name = moviePostDto.Name;
-            currentMovie.Desc = moviePostDto.Desc;
-            currentMovie.GenreId = moviePostDto.GenreId;
-            currentMovie.SalePrice = moviePostDto.SalePrice;
-            currentMovie.CostPrice = moviePostDto.CostPrice;
-            currentMovie.IsDeleted = moviePostDto.IsDeleted;
-            currentMovie.UpdatedDate = DateTime.UtcNow;
+            Movie movie= _mapper.Map(moviePutDto,currentMovie);
+            movie.UpdatedDate = DateTime.UtcNow;
 
             await _movieRepository.CommitAsync();
         }

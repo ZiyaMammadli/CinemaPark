@@ -13,6 +13,6 @@ public interface IMovieService
     Task<IEnumerable<MovieGetDto>> GetAllAsync();
     Task<MovieGetDto>GetByIdAsync(int id);
     Task CreateAsync(MoviePostDto moviePostDto);
-    Task UpdateAsync(int id,MoviePostDto moviePostDto);
-    Task DeleteAsync(int id);
+    Task UpdateAsync(int id,MoviePutDto moviePutDto);
+    Task DeleteAsync(int id,MovieDeleteDto movieDeleteDto);
 }

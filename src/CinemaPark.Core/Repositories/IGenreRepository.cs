@@ -11,4 +11,5 @@ namespace CinemaPark.Core.Repositories;
 public interface IGenreRepository : IGenericRepository<Genre>
 {
     Task<Genre> GetByIdAsync(int id);
+    Task<bool>IsExist(Expression<Func<Genre,bool>>expression);
 }

@@ -17,5 +17,11 @@ public class GenreRepository : GenericRepository<Genre>, IGenreRepository
     public GenreRepository(CinemaDbContext context) : base(context)
     {
     }
+
+
+    public async Task<bool> IsExist(Expression<Func<Genre, bool>> expression)
+    {
+        return await Table.AnyAsync(expression);
+    }
 }
  

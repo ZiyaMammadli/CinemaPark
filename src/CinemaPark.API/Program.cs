@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using CinemaPark.Business;
 using FluentValidation.AspNetCore;
 using CinemaPark.Business.DTOs.MovieDtos;
+using CinemaPark.Business.MappingProfiles;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -17,6 +18,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddRepositories();
 builder.Services.AddServices();
+builder.Services.AddAutoMapper(typeof(MovieMapProfile));
 builder.Services.AddDbContext<CinemaDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("default"));
@@ -30,6 +32,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
 
 app.UseHttpsRedirection();
 

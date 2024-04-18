@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C/moAY1aLqyc6cdfeaNl9ky1OP8vKVVTEdwr+HNWJ0tZhYh0OE4goHpEYUMBj5mT96rW6q+IE4KBaZVbaW1UeQ==",
+  "dgSpecHash": "SiH5OZWZufaOPM7oXCF1ZPih2f0097i0bn9yIqSwxjVV7vxiu6ZHLixTB90lY5pacg40ItUjvun5kaoOj1OJ4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\CinemaPark\\src\\CinemaPark.API\\CinemaPark.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",

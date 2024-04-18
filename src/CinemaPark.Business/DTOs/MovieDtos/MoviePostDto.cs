@@ -38,7 +38,8 @@ public class MovieCreateValidator:AbstractValidator<MoviePostDto>
             .GreaterThanOrEqualTo(1).When(m => !m.IsDeleted).WithMessage("SalePrice must be up than 1 when Isdeleted is false");
 
         RuleFor(m => m.CostPrice)
-            .NotNull().WithMessage("CostPrice can't be null");
+            .NotNull().WithMessage("CostPrice can't be null")
+            .GreaterThanOrEqualTo(1).When(m => !m.IsDeleted).WithMessage("SalePrice must be up than 1 when Isdeleted is false");
 
 
         RuleFor(m => m).Custom((m, context) =>

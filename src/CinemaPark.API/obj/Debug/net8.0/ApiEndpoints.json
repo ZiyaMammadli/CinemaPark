@@ -37,6 +37,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "genreDeleteDto",
+        "Type": "CinemaPark.Business.DTOs.GenreDtos.GenreDeleteDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -71,8 +76,8 @@
         "IsRequired": true
       },
       {
-        "Name": "genrePostDto",
-        "Type": "CinemaPark.Business.DTOs.GenreDtos.GenrePostDto",
+        "Name": "genrePutDto",
+        "Type": "CinemaPark.Business.DTOs.GenreDtos.GenrePutDto",
         "IsRequired": true
       }
     ],
@@ -116,6 +121,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "genrePutDto",
+        "Type": "CinemaPark.Business.DTOs.MovieDtos.MovieDeleteDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -150,8 +160,8 @@
         "IsRequired": true
       },
       {
-        "Name": "moviePostDto",
-        "Type": "CinemaPark.Business.DTOs.MovieDtos.MoviePostDto",
+        "Name": "moviePutDto",
+        "Type": "CinemaPark.Business.DTOs.MovieDtos.MoviePutDto",
         "IsRequired": true
       }
     ],

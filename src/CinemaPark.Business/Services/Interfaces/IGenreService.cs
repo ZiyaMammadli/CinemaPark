@@ -13,6 +13,6 @@ public interface IGenreService
     Task <IEnumerable<GenreGetDto>> GetAllAsync ();
     Task <GenreGetDto> GetByIdAsync (int id);
     Task CreateAsync(GenrePostDto genrePostDto);  
-    Task UpdateAsync (int id, GenrePostDto genrePostDto);
-    Task DeleteAsync (int id);
+    Task UpdateAsync (int id, GenrePutDto genrePutDto);
+    Task DeleteAsync (int id,GenreDeleteDto genreDeleteDto);
 }

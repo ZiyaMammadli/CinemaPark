@@ -31,10 +31,10 @@ namespace CinemaPark.API.Controllers
             {
                 return StatusCode(ex.statusCode, ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                return BadRequest(ex.Message);
             }
         }
         [HttpPost("[action]")]
@@ -48,46 +48,46 @@ namespace CinemaPark.API.Controllers
             {
                 return StatusCode(ex.statusCode, ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                return BadRequest(ex.Message);
             }
             return Created();
         }
         [HttpPut("[action]/{id}")]
-        public async Task <IActionResult> Update([FromRoute]int id, [FromBody] MoviePostDto moviePostDto)
+        public async Task <IActionResult> Update([FromRoute]int id, [FromBody] MoviePutDto moviePutDto)
         {
             try
             {
-                await _movieService.UpdateAsync(id, moviePostDto);
+                await _movieService.UpdateAsync(id, moviePutDto);
             }
             catch (NotFoundException ex)
             {
                 return StatusCode(ex.statusCode, ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                return BadRequest(ex.Message);
             }
             return Ok();
         }
         [HttpDelete("[action]/{id}")]
-        public async Task<IActionResult> Delete([FromRoute]int id)
+        public async Task<IActionResult> Delete([FromRoute]int id, [FromBody]MovieDeleteDto genrePutDto)
         {
             try
             {
-                await _movieService.DeleteAsync(id);
+                await _movieService.DeleteAsync(id, genrePutDto);
             }
             catch (NotFoundException ex)
             {
                 return StatusCode(ex.statusCode, ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                return BadRequest(ex.Message);
             }
             return Ok();
         }

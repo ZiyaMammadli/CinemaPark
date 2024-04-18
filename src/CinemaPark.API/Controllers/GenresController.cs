@@ -57,11 +57,11 @@ namespace CinemaPark.API.Controllers
             return Created();
         }
         [HttpPut("[action]/{id}")]
-        public async Task <IActionResult> Update([FromRoute]int id, [FromBody]GenrePostDto genrePostDto)
+        public async Task <IActionResult> Update([FromRoute]int id, [FromBody]GenrePutDto genrePutDto)
         {
             try
             {
-                await _genreService.UpdateAsync(id, genrePostDto);
+                await _genreService.UpdateAsync(id, genrePutDto);
             }
             catch (NotFoundException ex)
             {
@@ -74,11 +74,11 @@ namespace CinemaPark.API.Controllers
             return Ok();
         }
         [HttpDelete("[action]/{id}")]
-        public async Task<IActionResult> Delete([FromRoute] int id)
+        public async Task<IActionResult> Delete([FromRoute] int id, [FromBody]GenreDeleteDto genreDeleteDto)
         {
             try
             {
-                await _genreService.DeleteAsync(id);
+                await _genreService.DeleteAsync(id,genreDeleteDto);
             }
             catch (NotFoundException ex)
             {
